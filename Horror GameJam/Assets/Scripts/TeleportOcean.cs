@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class Teleport : MonoBehaviour
+public class TeleportOcean : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class Teleport : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("Ocean");
         }
     }
 
